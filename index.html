@@ -17,8 +17,11 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Author's Style Sheets -->
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
+
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
 
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
@@ -50,83 +53,174 @@
         <div class="container" id="header">
             <h1>Armand Abrahamian</h1>
             <h3 id="titles"></h3>
-            <div class="links">
-                <a href="mailto:armand.abrahamian@gmail.com">
+            <a href="mailto:armand.abrahamian@gmail.com" data-toggle="tooltip" data-placement="bottom" title="Gmail">
                     <i class="fa fa-envelope fa-3x grow grow:hover"></i>
                 </a>
-                <a href="http://www.linkedin.com/in/armandabrahamian">
+            <a href="http://www.linkedin.com/in/armandabrahamian" data-toggle="tooltip" data-placement="bottom" title="LinkedIn">
                         <i class="fa fa-linkedin-square fa-3x grow grow:hover"></i>
                 </a>
-                <a href="http://www.github.com/ArmandAbrahamian">
+            <a href="http://www.github.com/ArmandAbrahamian" data-toggle="tooltip" data-placement="bottom" title="GitHub">
                         <i class="fa fa-github fa-3x grow grow:hover"></i>
                 </a>
-            </div>
         </div>
     </div>
 
     <div class="container">
         <ul class="nav nav-tabs" role="tablist" id="myTab">
-            <li><a data-toggle="tab" href="#aboutme"><h2>About Me</h2></a></li>
-            <li><a data-toggle="tab" href="#projects"><h2>Projects</h2></a></li>
+            <li>
+                <a data-toggle="tab" href="#aboutme">
+                    <h3>About Me</h3>
+                </a>
+            </li>
+            <li>
+                <a data-toggle="tab" href="#setup">
+                    <h3>Setup</h3>
+                </a>
+            </li>
+            <li>
+                <a data-toggle="tab" href="#projects">
+                    <h3>Projects</h3>
+                </a>
+            </li>
         </ul>
         <div class="tab-content">
             <div id="aboutme" class="tab-pane fade in active">
                 <div class="row">
                     <div class="col-md-11">
-                        <h2>Welcome!</h2>
-                        <p>You've found the portfolio of Armand Abrahamian (up and coming game programmer, tenacious worker
-                            and life time gamer). </p>
+                        <h4>Welcome!</h4>
+                        <p>You've found the portfolio of Armand Abrahamian (software engineer, up and coming game programmer,
+                            tenacious worker and life time video gamer). </p>
 
-                        <p>Feel free to explore what the website has to offer. </p>
+                        <p> Feel free to explore the website. </p>
 
-                        <p>I'd love to chat about job opportunities, projects I've worked on, computer hardware,
-                            video games, video game development tools, or anything else on your mind.</p>
+                        <p>I'd love to chat about job opportunities, projects I've worked on, computer hardware, video games,
+                            video game development, or anything else on your mind.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="setup" class="tab-pane fade">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <div class="well">
+                            <h4>Development/Gaming PC Specs</h4>
+                            <p><em>I've built my own custom PCs from scratch since I was a teenager. </em></p>
+                            <img src="img/pccase.png" alt="PC Case image" style="height: auto; width: 320px;">
+                            <br><br>
+                            <p><b>CPU:</b> Intel Core I7 6700k @ 4.2Ghz
+                                <br><br>
+                                <b>Video Card:</b> Nvidia GTX 1070 ASUS ROG STRIX 8GB
+                                <br><br>
+                                <b>Memory:</b> G.SKILL Ripjaws V Series 16GB (2 x 8GB) DDR4 2400Mhz
+                                <br><br>
+                                <b>Motherboard:</b> ASUS Z170-E
+                                <br><br>
+                                <b>SSD:</b> SAMSUNG 850 EVO 250GB
+                                <br><br>
+                                <b>Hard Drive:</b> Seagate 1.5TB
+                                <br><br>
+                                <b>Case:</b> Antec Two Hundred V2
+                                <br><br>
+                                <b>OS:</b> Windows 10 Ultimate 64-bit
+                                <br><br>
+                                <b>Mouse:</b> Razer Deathadder 2013
+                                <br><br>
+                                <b>Keyboard:</b> Razer Blackwidow Stealth
+                                <br><br>
+                                <b>Microphone:</b> Blue Yeti Black
+                                <br><br>
+                                <b>Game Controller:</b> Xbox One Controller
+                            </p>
                         </div>
                 </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <div class="well" id="devtools">
+                                <h4>Development Tools</h4>
+                                <p> <b>IDE's: </b> </p>
+                                <figure>
+                                    <img src="img/visualstudio2017.ico" alt="Visual Studio 2017 icon">
+                                    <figcaption>Visual Studio 2017</figcaption>
+                                </figure>
+                                <figure>
+                                    <img src="img/intellij.png" alt="IntelliJ IDEA icon">
+                                    <figcaption>IntelliJ IDEA</figcaption>
+                                </figure>
+                                <br>
+                                <p> <b>Game Development: </b> </p>
+                                <figure>
+                                        <img src="img/unitylogo.png" alt="Unity icon">
+                                        <figcaption>Unity</figcaption>
+                                </figure>
+                                <br>
+                                <p> <b>Web Development/Text Editor: </b> </p>
+                                <figure>
+                                        <img src="img/visualstudiocode.ico" alt="Visual Studio Code icon">
+                                        <figcaption>Visual Studio Code</figcaption>
+                                </figure>
+                                <br>
+                                <p> <b>Source Managment: </b> </p>
+                                <figure>
+                                        <img src="img/SourceTreeNewIcon-300x300.png" alt="SourceTree icon">
+                                        <figcaption>SourceTree</figcaption>
+                                </figure>
+                                <br>
+                                <p> <b>Issue Tracking: </b> </p>
+                                <figure>
+                                        <img src="img/a8dda0e01bb0031b_256x256.png" alt="JIRA icon">
+                                        <figcaption>JIRA</figcaption>
+                                </figure>
+                                <figure>
+                                        <img src="img/Trello-128.png" alt="Trello icon">
+                                        <figcaption>Trello</figcaption>
+                                </figure>
+                                <figure>
+                                        <img src="img/mantis_logo_for_google_400x400.png" alt="Matirs Bug Tracker icon">
+                                        <figcaption>Mantis Bug Tracker</figcaption>
+                                </figure>
+                        </div>
+                    </div>
             </div>
             <div id="projects" class="tab-pane fade">
                 <div class="row equal">
-                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                                <a href="https://github.com/ArmandAbrahamian/comp465project">
-                                    <div class="well">
-                                        <h3>LFT</h3>
-                                        <div class="img-wrapper">
-                                            <img src="img/LFT.png" class="center-block" alt="LFT">
-                                        </div>
-                                        <p>(click to link to source code)</p>
-                                    </div>
-                                </a>
-                            </div>
                     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                        <a href="https://github.com/ArmandAbrahamian/comp465project">
+                        <a href="http://github.com/ArmandAbrahamian/LFT">
                             <div class="well">
-                                <h3>Warbird Simulator</h3>
+                                <h4>LFT</h4>
                                 <div class="img-wrapper">
-                                    <img src="img/warbirdSimulator.gif" class="center-block" alt="Warbird Simulator">
+                                    <img src="img/lft.png" class="center-block" alt="LFT image">
                                 </div>
-                                <p>(click to link to source code)</p>
+                                <p>(click to link to description and source code)</p>
                             </div>
                         </a>
                     </div>
                     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                        <a href="https://github.com/BenVillalobos/CSUNGameJam16">
+                        <a href="http://github.com/ArmandAbrahamian/comp465project">
                             <div class="well">
-                                <h3>Disco Dash</h3>
+                                <h4>Warbird Simulator</h4>
                                 <div class="img-wrapper">
-                                    <img src="img/discoDash.png" class="center-block" alt="Disco Dash">
+                                    <img src="img/warbirdSimulator.gif" class="center-block" alt="Warbird Simulator image">
                                 </div>
-                                <p>(click to link to source code)</p>
+                                <p>(click to link to description and source code)</p>
                             </div>
                         </a>
                     </div>
                     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                        <a href="https://github.com/ArmandAbrahamian/ZXE3">
+                        <a href="http://github.com/BenVillalobos/CSUNGameJam16">
                             <div class="well">
-                                <h3>ZXE3</h3>
+                                <h4>Disco Dash</h4>
                                 <div class="img-wrapper">
-                                    <img src="img/ZXE3.gif" class="center-block" alt="ZXE3">
+                                    <img src="img/discoDash.png" class="center-block" alt="Disco Dash image">
                                 </div>
-                                <p>(click to link to source code)</p>
+                                <p>(click to link to description and source code)</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <a href="http://github.com/ArmandAbrahamian/ZXE3">
+                            <div class="well">
+                                <h4>ZXE3</h4>
+                                <div class="img-wrapper">
+                                    <img src="img/ZXE3.gif" class="center-block" alt="ZXE3 image">
+                                </div>
+                                <p>(click to link to description and source code)</p>
                             </div>
                         </a>
                     </div>
@@ -137,23 +231,25 @@
     <hr>
 
     <footer>
-            <p>Copyright &copy; 2017 Armand Abrahamian. All Rights Reserved.</p>
+        <p>Copyright &copy; 2017 Armand Abrahamian. All Rights Reserved.</p>
     </footer>
 
     <!-- End of site content -->
 
     <!-- jQuery v.3.2.1 (necessary for Bootstrap's JavaScript plugins)-->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script> // If the script cannot be obtained from the CDN load the fallback
+    <script>
+        // If the script cannot be obtained from the CDN load the fallback
         window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')
     </script>
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script> <!-- jQuery Plugin: Typeit -->
+    <script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
+    <!-- jQuery Plugin: Typeit -->
     <script>
-        if(typeof $.fn.Typeit !== 'undefined') {
+        if (typeof $.fn.Typeit !== 'undefined') {
 
-         }
+        }
     </script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
@@ -161,13 +257,13 @@
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
-            (function (b, o, i, l, e, r) {
+        (function (b, o, i, l, e, r) {
             b.GoogleAnalyticsObject = l; b[l] || (b[l] =
                 function () { (b[l].q = b[l].q || []).push(arguments) }); b[l].l = +new Date;
-                e = o.createElement(i); r = o.getElementsByTagName(i)[0];
-                e.src = 'https://www.google-analytics.com/analytics.js';
-                r.parentNode.insertBefore(e, r)
-            }(window, document, 'script', 'ga'));
+            e = o.createElement(i); r = o.getElementsByTagName(i)[0];
+            e.src = 'https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e, r)
+        }(window, document, 'script', 'ga'));
         ga('create', 'UA-XXXXX-X', 'auto'); ga('send', 'pageview');
     </script>
 </body>

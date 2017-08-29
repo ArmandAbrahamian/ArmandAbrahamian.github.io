@@ -119,6 +119,9 @@ textarea {
     text-decoration: none;
     margin: 0px 10px;
 }
+#header a:hover{
+    color: #b3dcf0;
+}
 
 #projects {
     text-align: center;
@@ -127,17 +130,22 @@ textarea {
     color: #FFF;
     text-decoration: none;
 }
-
-.well {
+#projects .well {
     height: 100%;
     width: 100%;
 }
-.well:hover {
+#projects .well:hover {
     background-color: #282828;
 }
+
 .well img{
     max-width: 100%;  /* do not stretch the bootstrap column */
     max-height: 100%;
+}
+
+#devtools img {
+    width: 64px;
+    height: 64px;
 }
 
 .equal {
