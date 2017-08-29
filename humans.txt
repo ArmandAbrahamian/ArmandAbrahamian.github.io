@@ -1,0 +1,17 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    <name> -- <role> -- <twitter>
+    Armand Abrahamian -- Owner & Creator
+
+# THANKS
+
+    <name>
+
+# TECHNOLOGY COLOPHON
+
+    Standards: CSS3, HTML5
+    Components: Apache Server Configs, jQuery, Modernizr, Normalize.css, Bootstrap 3
+    Software: Visual Studio Code
